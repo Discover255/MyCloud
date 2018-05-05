@@ -1,23 +1,40 @@
-<html>
-    <head>
-        <meta charset="utf-8">
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="apple-touch-icon" href="favicon.png">
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <title>MyCloud Login</title>
     </head>
     <body>
-        <div id="div1">
-            <div id="div2"></div>
-        </div>
-        <a href="fuck">HTTPServlet</a>
-        <style>
-            #div1 {
-                height: 200px;
-                width: 600px;
-                overflow: auto;
-            }
-            #div2 {
-                height: 800px;
-                width: 800px;
-                background-color: black;
-            }
-        </style>
-    </body>
-</html>
+        <form method="GET">
+            <fieldset>
+                <legend>Welcome</legend>
+                <div>
+                    <label for="username">Username: </label>
+                    <input name="username" id="username" type="text" size="20px">
+                </div>
+                <div>
+                    <label for="password">Password: </label>
+                    <input name="password" id="password" type="password" size="21px">
+                </div>
+                <div>
+                    <div class="remember">
+                        <label id="remember"><input name="remember" type="checkbox"><a id="checkbox_text">Remember me</a></label>
+                    </div>
+                    <div class="fpass"><a href="https://baidu.com/">Forget password?</a></div>
+                </div>
+                <div id="button_wrap">
+                    <button type="submit" id="signin">
+                        <div class="button"><span>Sign in</span></div>
+                    </button>
+                    <button type="button" id="signup">
+                        <div class="button">
+                            <a href="https://baidu.com/"><span>Sign up</span></a>
+                        </div>
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+        <script src="main.js" type="text/Javascript"></script>
+    
+</body></html>

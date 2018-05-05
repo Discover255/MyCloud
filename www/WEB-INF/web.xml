@@ -10,7 +10,7 @@
     <description>
       MyCloud - private netdisk
     </description>
-    <display-name>MyCloud</display-name>
+    <display-name>mycloud</display-name>
 
     <servlet>
         <servlet-name>Main</servlet-name>

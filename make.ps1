@@ -5,4 +5,4 @@ $jfile2="HTTPServlet.java"
 $ctarget=".\www\WEB-INF\classes\"
 javac -classpath $lib\* -d $ctarget $class\$jfile1 $class\$jfile2
 cd www
-jar cvf ..\MyCloud.war .\
+jar cvf ..\mycloud.war .\
